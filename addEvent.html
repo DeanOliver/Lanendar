@@ -1,0 +1,34 @@
+<HTML>
+	<HEAD>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+   	  	<script src="addEvent.js"></script>
+   	  	<script src="countryList.js"></script>
+      	<TITLE>Events</TITLE>
+	
+   </HEAD>
+<BODY>
+
+<div class="nav-bar">
+		<li class="nav-li"><a href="index.php">Calender</a></li>
+     	<li class="nav-li"><a href="viewEvent.html">View Events</a></li>
+	</ul>
+</div>
+
+<div class="add-event-div">
+	<form id="add-event-form">
+		Event name <input type="text" id="eventName" placeholder="Event Name"/><br>
+		Country/State <select id="mySelect"></select><br>
+		Address <input type="text" id="address"/><br>
+		Game <input type="text" id="eventGame" placeholder="The Game"/><br>
+		Start date <input type="date" id="eventDateStart" placeholder="Start Date"/><br>
+		End date <input type="date" id="eventDateEnd" placeholder="End Date"/><br>
+		Entrance fee <input type="text" id="entranceCost" placeholder="$0.00"/><br>
+		Prize pool <input type="text" id="prizePool" placeholder="$100.00"/><br>
+		Link to event <input type="text" id="eventLink" placeholder="Link"/><br>
+
+		<a href="#" id="add-event-btn">Add</a>
+	</form>
+</div>
+
+</BODY>
+</HTML>
